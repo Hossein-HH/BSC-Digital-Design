@@ -1,0 +1,9 @@
+{D:/#Uni/#Terme 7/TarrahiDigital/projects/4.TFF/TFF.v} {1 {vlog -work work -vopt -stats=none {D:/#Uni/#Terme 7/TarrahiDigital/projects/4.TFF/TFF.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module TFlipFlop
+-- Compiling module TFlipFlopTB
+
+Top level modules:
+	TFlipFlopTB
+
+} {} {}}

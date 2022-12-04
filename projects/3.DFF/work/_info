@@ -1,0 +1,88 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_2020.4/examples
+T_opt
+!s110 1669469696
+VN>fbA51VlLNUC7oTgAiIQ2
+Z1 04 6 4 work tb_DFF fast 0
+=1-809133a1821d-63821600-1fd-12f4
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1669469709
+V?T;O5;A[eSAY;KCcDfj:D1
+04 3 4 work DFF fast 0
+=1-809133a1821d-6382160c-3e2-4f84
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1669469723
+VUMGR<Z]@d^WmRAeOhzV0o0
+R1
+=1-809133a1821d-6382161b-33c-4894
+o-quiet -auto_acc_if_foreign -work work +acc
+R3
+n@_opt2
+R4
+vDFF
+Z5 !s110 1669469674
+!i10b 1
+!s100 ol:e@C7L>No59?zQ5Oe=d0
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;>CSiZU6?lVo_`JXlZWFT0
+Z7 dD:/#Uni/#Terme 7/TarrahiDigital/projects/3.DFF
+Z8 w1669469670
+Z9 8D:/#Uni/#Terme 7/TarrahiDigital/projects/3.DFF/DFF.v
+Z10 FD:/#Uni/#Terme 7/TarrahiDigital/projects/3.DFF/DFF.v
+!i122 3
+L0 1 10
+Z11 VDg1SIo80bB@j0V0VzS_@n1
+Z12 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z13 !s108 1669469674.000000
+Z14 !s107 D:/#Uni/#Terme 7/TarrahiDigital/projects/3.DFF/DFF.v|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/#Uni/#Terme 7/TarrahiDigital/projects/3.DFF/DFF.v|
+!i113 0
+Z16 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+n@d@f@f
+vtb_DFF
+R5
+!i10b 1
+!s100 NHP_Wm;jNU5z0f<ebzznY1
+R6
+IDzccZ?7UkbS]=WNhAXYcZ1
+R7
+R8
+R9
+R10
+!i122 3
+L0 12 31
+R11
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R3
+ntb_@d@f@f

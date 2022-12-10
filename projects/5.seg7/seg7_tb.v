@@ -1,7 +1,7 @@
 `timescale 1s/1s
-`include "projects/5.7_segment/7_segment.v"
+`include "projects/5.seg7/seg7.v"
 
-module segment7_tb;
+module seg7_tb;
 
   // binary => bcd
   // 0-16 in binary are 4 bits
@@ -15,7 +15,7 @@ module segment7_tb;
   integer i;
 
   // Instantiate the Unit Under Test (UUT)
-  segment7 uut (
+  seg7 uut (
              .bcd(bcd),
              .seg(seg)
            );
@@ -23,8 +23,8 @@ module segment7_tb;
   initial
   begin
 
-    $dumpfile("segment7_tb.vcd");
-    $dumpvars(0,segment7_tb);
+    $dumpfile("seg7_tb.vcd");
+    $dumpvars(0,seg7_tb);
 
     for(i = 0;i < 16;i = i+1)
     begin

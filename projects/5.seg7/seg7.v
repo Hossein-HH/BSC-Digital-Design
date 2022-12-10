@@ -1,4 +1,4 @@
-module segment7(
+module seg7(
     seg,
     bcd
   );

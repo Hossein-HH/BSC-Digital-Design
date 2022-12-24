@@ -1,0 +1,30 @@
+inputs : 
+
+    4 * temp sen(15,27)
+
+    light sen(0,1000)
+ 
+    humidity sen(0,100) 
+ 
+    door PIR in(0,1) 
+    door PIR out(0,1) 
+ 
+    door open max(0,1) 
+    door close max(0,1)
+
+    *ph_sen(50,60) ~ (5,6)
+
+outputs :
+
+    heater(0,1) <25< => 15,27
+
+    light(0,1) => <200< => 0,1000
+    
+    humidity generator(0,1) => <50<
+    
+    door open (0,1)
+    door close (0,1)
+
+    *addAlkali(0,1)
+    *addAcidic(0,1)
+    *ventilator(0,1) => temp > 40

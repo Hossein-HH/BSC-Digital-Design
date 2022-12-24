@@ -1,0 +1,16 @@
+**** module/scope: green_house
+     Flip-Flops   : 0
+     Logic Gates  : 402
+     ADDER[32]: 3 units
+     MAGNITUDE[32]: 3 units
+     MUX[2]: 9 slices
+     LOG[13]: 1 unaccounted
+     LOG[14]: 1 unaccounted
+**** TOTALS
+     Flip-Flops   : 0
+     Logic Gates  : 402
+     ADDER[32]: 3 units
+     MAGNITUDE[32]: 3 units
+     MUX[2]: 9 slices
+     LOG[13]: 1 unaccounted
+     LOG[14]: 1 unaccounted

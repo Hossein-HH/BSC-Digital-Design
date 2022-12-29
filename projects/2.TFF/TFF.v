@@ -1,10 +1,14 @@
-module TFlipFlop(T,Clk,Q,Qbar );
+module TFlipFlop(T,Clk,Q,Qbar);
+
   input T,Clk;
+
   output Q,Qbar;
   reg Q,Qbar;
+
   always@(T,posedge(Clk))
+
   begin
-    if(T==0)
+    if(T == 0)
     begin
       Q =1'b1;
       Qbar=1'b0;
@@ -16,7 +20,6 @@ module TFlipFlop(T,Clk,Q,Qbar );
     end
   end
 endmodule
-
 
 module TFlipFlopTB;
 
@@ -52,12 +55,10 @@ module TFlipFlopTB;
   end
 endmodule
 
-
-
 module TFF (    input clk,
-                  input rstn,
-                  input t,
-                  output reg q);
+                input rstn,
+                input t,
+                output reg q);
 
   always @ (posedge clk)
   begin

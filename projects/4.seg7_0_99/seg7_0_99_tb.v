@@ -18,10 +18,10 @@ module seg7_0_99_tb;
 
   // Instantiate the Unit Under Test (UUT)
   seg7_0_99 uut (
-             .bcd(bcd),
-             .seg(seg),
-             .disp_channel(disp_channel)
-           );
+              .bcd(bcd),
+              .seg(seg),
+              .disp_channel(disp_channel)
+            );
 
   initial
   begin

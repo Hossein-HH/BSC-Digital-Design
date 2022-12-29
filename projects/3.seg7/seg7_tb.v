@@ -11,14 +11,14 @@ module seg7_tb;
   // 7 bits for 7 led
   wire [6:0] seg;
 
-  // decimal presentation = i   
+  // decimal presentation = i
   integer i;
 
   // Instantiate the Unit Under Test (UUT)
   seg7 uut (
-             .bcd(bcd),
-             .seg(seg)
-           );
+         .bcd(bcd),
+         .seg(seg)
+       );
 
   initial
   begin

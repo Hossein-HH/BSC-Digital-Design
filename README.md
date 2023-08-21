@@ -1,4 +1,4 @@
-# TarrahiDigital
+# Digital Design Course Repository
 
 Implementation ```Verilog``` codes for ```DigitalDesign``` with Dr.MosallaNezhad in Jahrom University
 
